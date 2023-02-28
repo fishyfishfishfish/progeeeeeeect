@@ -1,0 +1,13 @@
+body{
+    color:indianred;
+}
+canvas{
+    animation-name: Example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes Example{
+    from{box-shadow:30px 30px 38px rgb(255, 0, 0);}
+    to{box-shadow:30px 30px 38px rgba(154, 79, 0, 0.598);}
+}
+
